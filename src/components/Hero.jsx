@@ -97,7 +97,7 @@ const Hero = () => {
                 creative flair, and timeless recipes — designed to delight your
                 senses.
               </p>
-              <a href="#juices">View Juices</a>
+              <a href="#cocktails">View Juices</a>
             </div>
           </div>
         </div>

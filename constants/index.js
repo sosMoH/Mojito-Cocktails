@@ -1,6 +1,6 @@
 const navLinks = [
   {
-    id: "juices", // Changed from cocktails
+    id: "cocktails", // Changed from cocktails
     title: "Fresh Juices",
   },
   {
