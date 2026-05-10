@@ -1,7 +1,7 @@
 const navLinks = [
   {
-    id: "cocktails",
-    title: "Cocktails",
+    id: "juices", // Changed from cocktails
+    title: "Fresh Juices",
   },
   {
     id: "about",
@@ -19,28 +19,28 @@ const navLinks = [
 
 const cocktailLists = [
   {
-    name: "Chapel Hill Shiraz",
-    country: "AU",
-    detail: "Battle",
+    name: "Crisp Apple Craze",
+    country: "US",
+    detail: "Bottle",
     price: "$10",
   },
   {
-    name: "Caten Malbee",
-    country: "AU",
-    detail: "Battle",
-    price: "$49",
+    name: "Mango Sunrise Nectar",
+    country: "IN",
+    detail: "Bottle",
+    price: "$15",
   },
   {
-    name: "Rhino Pale Ale",
-    country: "CA",
+    name: "Peach & Passionfruit",
+    country: "ZA",
     detail: "750 ml",
     price: "$20",
   },
   {
-    name: "Irish Guinness",
-    country: "IE",
+    name: "Pomegranate Ruby",
+    country: "EG",
     detail: "600 ml",
-    price: "$29",
+    price: "$18",
   },
 ];
 
@@ -48,14 +48,14 @@ const mockTailLists = [
   {
     name: "Tropical Bloom",
     country: "US",
-    detail: "Battle",
+    detail: "Bottle",
     price: "$10",
   },
   {
     name: "Passionfruit Mint",
     country: "US",
-    detail: "Battle",
-    price: "$49",
+    detail: "Bottle",
+    price: "$14",
   },
   {
     name: "Citrus Glow",
@@ -67,7 +67,7 @@ const mockTailLists = [
     name: "Lavender Fizz",
     country: "IE",
     detail: "600 ml",
-    price: "$29",
+    price: "$19",
   },
 ];
 
@@ -87,16 +87,16 @@ const profileLists = [
 ];
 
 const featureLists = [
-  "Perfectly balanced blends",
-  "Garnished to perfection",
-  "Ice-cold every time",
-  "Expertly shaken & stirred",
+  { text: "Perfectly balanced fruit blends" },
+  { text: "Garnished with fresh mint & zest" },
+  { text: "Ice-cold and refreshing every time" },
+  { text: "Expertly pressed & stirred" },
 ];
 
 const goodLists = [
-  "Handpicked ingredients",
-  "Signature techniques",
-  "Bartending artistry in action",
+  "Handpicked organic fruits",
+  "Signature blending techniques",
+  "Juicing artistry in action",
   "Freshly muddled flavors",
 ];
 
@@ -105,15 +105,15 @@ const storeInfo = {
   address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
   contact: {
     phone: "(555) 987-6543",
-    email: "hello@jsmcocktail.com",
+    email: "hello@jsmjuice.com", // Updated email
   },
 };
 
 const openingHours = [
-  { day: "Mon–Thu", time: "11:00am – 12am" },
-  { day: "Fri", time: "11:00am – 2am" },
-  { day: "Sat", time: "9:00am – 2am" },
-  { day: "Sun", time: "9:00am – 1am" },
+  { day: "Mon–Thu", time: "11:00am – 10:00pm" },
+  { day: "Fri", time: "11:00am – 11:00pm" },
+  { day: "Sat", time: "9:00am – 11:00pm" },
+  { day: "Sun", time: "9:00am – 9:00pm" },
 ];
 
 const socials = [
@@ -137,35 +137,35 @@ const socials = [
 const sliderLists = [
   {
     id: 1,
-    name: "Classic Mojito",
+    name: "Classic Lemon-Mint",
     image: "/images/drink1.png",
     title: "Simple Ingredients, Bold Flavor",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "Made with fresh lemons, crushed mint leaves, and a hint of agave, this lemonade is full of character. Served perfectly chilled for warm summer days.",
   },
   {
     id: 2,
-    name: "Raspberry Mojito",
+    name: "Raspberry Cooler",
     image: "/images/drink2.png",
     title: "A Zesty Classic That Never Fails",
     description:
-      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+      "A gorgeous blend that balances tangy lemon, smooth raspberry puree, and a touch of sweetness. Blended, iced, or sparkling—it’s always crisp & refreshing.",
   },
   {
     id: 3,
-    name: "Violet Breeze",
+    name: "Violet Blueberry Breeze",
     image: "/images/drink3.png",
-    title: "Simple Ingredients, Bold Flavor",
+    title: "Sweet, Tangy, and Beautiful",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "Made with fresh blueberries, lime juice, and sparkling water, this mocktail is easy to make and visually stunning. Add a sugared rim for the perfect treat.",
   },
   {
     id: 4,
-    name: "Curacao Mojito",
+    name: "Tropical Blue Oasis",
     image: "/images/drink4.png",
     title: "Crafted With Care, Poured With Love",
     description:
-      "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+      "Crafted using non-alcoholic blue curacao syrup, fresh pineapple, and passionfruit for a perfect pour. A vibrant, halal-friendly getaway in a glass.",
   },
 ];
 
